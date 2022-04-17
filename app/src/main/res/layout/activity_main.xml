@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#130000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomeView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Welcome To Tic Tac Toe"
+            android:textColor="#FB0505"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/resultView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Your Turn : Player 0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:text="Restart"
+            android:textSize="20sp"
+            app:backgroundTint="#4CAF50"
+            android:onClick="restartOnClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="firstOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+
+            <Button
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="secondOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+
+            <Button
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="thirdOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/fourth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="fourthOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+
+            <Button
+                android:id="@+id/fifth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="fifthOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+
+            <Button
+                android:id="@+id/sixth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="sixthOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/seventh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="seventhOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+
+            <Button
+                android:id="@+id/eighth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="eightOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+
+            <Button
+                android:id="@+id/ninth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="nineOnClick"
+                android:text="-"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:backgroundTint="#00F60909" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
